@@ -44,7 +44,7 @@ export async function BlogPage() {
                     </p>
                     <Badge variant="outline" className="flex items-center gap-2 w-fit mx-auto text-white">
                         <ExternalLink className="h-4 w-4" />
-                        Powered by OfficialParsaNaderi
+                        Powered by ParsaNaderi
                     </Badge>
                 </div>
 
@@ -109,7 +109,7 @@ export async function BlogPage() {
                             rel="noopener noreferrer"
                             className="text-white hover:underline"
                         >
-                            OfficialParsaNaderi
+                            ParsaNaderi
                         </a>
                     </p>
                 </div>

@@ -9,7 +9,7 @@ export default function Robot() {
         <>
             <Spline scene="https://prod.spline.design/y59lqlb2dbafZbBu/scene.splinecode" />
 
-            <div className="Rubikamp-Logo absolute top-0 flex gap-47 m-2">
+            <div className="Rubikamp-Logo absolute top-0 flex gap-48 m-2">
                 <div className="Rubikamp flex gap-1.5">
                     <div className="Image">
                         <Image className="rounded-full w-8" src={"/Rubikamp.jpg"} alt={"Rubikamp-Logo"} width={100} height={100} />
@@ -28,7 +28,7 @@ export default function Robot() {
 
                     <div className="Text flex items-center">
                         <a className="text-white font-light text-[18px] hover:underline" 
-                        href="https://parsanaderi.alphaedu.ir" target="blank">OfficialParsaNaderi</a>
+                        href="https://parsanaderi.alphaedu.ir" target="blank">ParsaNaderi</a>
                     </div>
                 </div>
             </div>

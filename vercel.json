@@ -1,8 +1,10 @@
 {
-  "framework": "nextjs",
   "installCommand": "npm ci",
   "buildCommand": "npm run build",
   "functions": {
-    "runtime": "nodejs20.x"
+    "app/**/route.ts": { "runtime": "nodejs20.x" },
+    "app/**/route.js": { "runtime": "nodejs20.x" },
+    "pages/api/**/*.ts": { "runtime": "nodejs20.x" },
+    "pages/api/**/*.js": { "runtime": "nodejs20.x" }
   }
 }
